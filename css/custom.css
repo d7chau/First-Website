@@ -9,30 +9,30 @@ body {
   }
 
   .margin {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .bg-1 {
-    background-color: #1abc9c;
-    /* Green */
+    background-color: #4b41db;
+    /* About */
     color: #ffffff;
   }
 
   .bg-2 {
-    background-color: #474e5d;
-    /* Dark Blue */
+    background-color: #4b41db;
+    /* Contact */
     color: #ffffff;
   }
 
   .bg-3 {
     background-color: #ffffff;
-    /* White */
-    color: #555555;
+    /* Projects */
+    color: #2f2f2f;
   }
 
   .bg-4 {
     background-color: #2f2f2f;
-    /* Black Gray */
+    /* Footer */
     color: #fff;
   }
 
@@ -89,12 +89,23 @@ body {
   } 
 
 .navleft{
-    color:#555555;
+    color:#2f2f2f;
     font-size: 20px;
   }
 
+  .navleft:hover{
+    color: #4b41db;
+    font-weight:bold;
+    text-decoration: none;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: #2f2f2f;
+}
+
   .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color: #4b41db !important;
+    font-weight:bold;
   }
 
   
