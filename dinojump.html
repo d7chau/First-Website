@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script type = "text/javascript" src = "js/lightbox-plus-jquery.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,13 +23,67 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-default">
         <!-- Brand/logo -->
-        <a class="navleft" href="index.html">DENNIS<strong>CHAU</strong></a>
+        <a class="navleft" href="index.html">DENNIS<strong>CHAU</strong> </a>
     </nav>
 
     <!-- First Container -->
     <div class="aboutme bg-1 text-center" id="about">
-        <h1 class="margin">DINO-JUMP</h1>  
+        <h1 class="avoidheader">DINO-JUMP</h1>
+        <a href="https://github.com/d7chau/Dino-Jump" target="_blank">
+            <img border="0" alt="Repository" src="img/githubrepository.png" width="200px" height="70px">
+        </a>
+        <p class = "avoidtext">A single-player game created in the OpenGL framework LibGDX</p>
+    </div>
+
+    <!-- Second Container -->
+    <div class="projects bg-3 text-center" id="projects">
+        <p class ="avoidtext2" align="left">Dino-Jump is a single player game developed in the framework LibGDX as a collaborative two-man effort for our computer science class
+            during highschool. It was built within a two month timespan as a final project based on our knowledge learned previously through the semester. Unfortunately, features of
+            the game such as platforms constantly randomly generating were envisioned but not able to implement smoothly.
+        </p>    
+        <p class = "avoidtext2" align="left">The user is able to move the dinosaur sprite left and right by using the left and right directional keys. The goal of the game is to reach the highest score
+            possible by jumping on platforms and not falling through the bottom of the screen (jumping is automatic and not activated by any keys). If this were to occur, the game would then be over.
+        </p>         
+      </div>
+
+    <!-- Third Container -->
+
+      <div class="avoidflex-container">
+        <div>
+          <a href="img/dinojump/mainmenu.png" target="_blank" data-lightbox = "gallery" data-title = "The main menu screen.">
+            <img border="0" alt="Main Menu" src="img/dinojump/mainmenu-thumb.png" width="200px" height="200px" >
+          </a>
+        </div>
+        <div>
+          <a href="img/dinojump/infoscreen1.png" target="_blank" data-lightbox = "gallery" data-title = "The first part of the instructions screen.">
+            <img border="0" alt="Info Screen 1" src="img/dinojump/infoscreen1-thumb.png" width="200px" height="200px">
+          </a>
+        </div>
+        <div>
+          <a href="img/dinojump/infoscreen2.png" target="_blank" data-lightbox = "gallery" data-title = "The second part of the instructions screen.">
+            <img border="0" alt="Info Screen 2" src="img/dinojump/infoscreen2-thumb.png" width="200px" height="200px">
+          </a>
+        </div>
+        <div>
+          <a href="img/dinojump/infoscreen3.png" target="_blank" data-lightbox = "gallery" data-title = "The third part of the instructions screen.">
+            <img border="0" alt="Info Screen 3" src="img/dinojump/infoscreen3-thumb.png" width="200px" height="200px">
+          </a>
+        </div>
+        <div>
+            <a href="img/dinojump/infoscreen4.png" target="_blank" data-lightbox = "gallery" data-title = "The fourth part of the instructions screen.">
+              <img border="0" alt="Info Screen 4" src="img/dinojump/infoscreen4-thumb.png" width="200px" height="200px">
+            </a>
+          </div>
+          <div>
+            <a href="img/dinojump/gamescreen.png" target="_blank" data-lightbox = "gallery" data-title = "The game screen.">
+              <img border="0" alt="Win Screen" src="img/dinojump/gamescreen-thumb.png" width="200px" height="200px">
+            </a>
+          </div>
+          <div>
+                <a href="img/dinojump/gameoverscreen.png" target="_blank" data-lightbox = "gallery" data-title = "The game over screen.">
+                  <img border="0" alt="Win Screen" src="img/dinojump/gameoverscreen-thumb.png" width="200px" height="200px">
+                </a>
+              </div>
+      </div>
     </div>
 </body>
-
-</html>

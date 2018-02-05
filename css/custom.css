@@ -2,6 +2,7 @@ body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+    margin-top: 30px; 
   }
 
   p {
@@ -37,7 +38,7 @@ body {
   }
 
   .bg-4 {
-    background-color: #2f2f2f;
+    background-color: #494848;
     /* Footer */
     color: #fff;
   }
@@ -85,6 +86,7 @@ body {
   }
 
    .navbar {
+    background-color: #ffffff;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -92,6 +94,11 @@ body {
     margin-bottom: 0;
     font-size: 15px;
     letter-spacing: 5px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 1px solid #d1d0d0;
+    text-align: center;
   } 
 
 .navleft{
@@ -129,6 +136,27 @@ body {
     font-size: 30px;
   }
 
+  .avoidflex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    width:70%;
+    height:100%;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .avoidflex-container > div { 
+    background-color: #ffffff;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
   .contactinfo{
     color: rgb(255, 255, 255);
     padding-top: 0px;
@@ -141,7 +169,41 @@ body {
 
   .avoidtext{
     font-size: 20px;
+    padding: 25px 350px 30px 350px;
+  }
+
+  .avoidtext2{
+    font-size: 20px;
+    padding: 10px 350px 30px 350px;
+  }
+
+  .avoidheader{
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .avoidrepositorybtn{
     padding: 5px 350px 30px 350px;
   }
 
+  .landing{
+    padding-top: 180px;
+    padding-bottom: 140px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .landingtext1{
+    font-size: 100px;
+  }
+
+  .landingtext2{
+    font-size: 50px;
+  }
+
+  .hrlandingpage{
+    background-color: #2f2f2f;
+    height: 0.3px;
+    width: 100%;
+  }
   

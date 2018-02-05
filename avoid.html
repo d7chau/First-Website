@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script type = "text/javascript" src = "js/lightbox-plus-jquery.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,13 +23,64 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-default">
         <!-- Brand/logo -->
-        <a class="navleft" href="index.html">DENNIS<strong>CHAU</strong></a>
+        <a class="navleft" href="index.html">DENNIS<strong>CHAU</strong> </a>
     </nav>
 
     <!-- First Container -->
     <div class="aboutme bg-1 text-center" id="about">
-        <h1 class="margin">AVOID</h1>   
-        
+        <h1 class="avoidheader">AVOID</h1>
+        <a href="#" target="_blank">
+            <img border="0" alt="Repository" src="img/githubrepository.png" width="200px" height="70px">
+        </a>
+        <p class = "avoidtext">A two-player game created in the language Processing</p>
+    </div>
+
+    <!-- Second Container -->
+    <div class="projects bg-3 text-center" id="projects">
+        <p class ="avoidtext2" align="left">Avoid is a two player game developed in the language Processing (simplified version of Java) as a collaborative two-man effort for our computer science class
+            during highschool. It was built within a two month timespan as a final project based on our knowledge learned previously through the semester. Features such as having the sprites
+            rotate 90 degrees on key command were unfortunately not able to be implemented in the game as envisioned.
+        </p>    
+        <p class = "avoidtext2" align="left">One player is able to use WASD, while the other is able to use the directional keys to move their sprite in the corresponding direction.
+            The goal of the game is to land the side of your square sprite that contains a black rectangle to any of the sides that the opponent has that does not contain a
+            black rectangle OR bounce the other player's square sprite off of the screen by colliding two sides containing black rectangles / two blank sides.. 
+        </p>         
+      </div>
+
+    <!-- Third Container -->
+
+      <div class="avoidflex-container">
+        <div>
+          <a href="img/avoid/avoidmenu.png" target="_blank" data-lightbox = "gallery" data-title = "The main menu screen.">
+            <img border="0" alt="Menu" src="img/avoid/avoidmenu-thumb.png" width="200px" height="200px" >
+          </a>
+        </div>
+        <div>
+          <a href="img/avoid/avoidinfo1.png" target="_blank" data-lightbox = "gallery" data-title = "The first part of the instructions screen.">
+            <img border="0" alt="Game Screen" src="img/avoid/avoidinfo1-thumb.png" width="200px" height="200px">
+          </a>
+        </div>
+        <div>
+          <a href="img/avoid/avoidinfo2.png" target="_blank" data-lightbox = "gallery" data-title = "The second part of the instructions screen.">
+            <img border="0" alt="Instructions 1" src="img/avoid/avoidinfo2-thumb.png" width="200px" height="200px">
+          </a>
+        </div>
+        <div>
+          <a href="img/avoid/avoidgamescreen.png" target="_blank" data-lightbox = "gallery" data-title = "The game screen.">
+            <img border="0" alt="Instructions 2" src="img/avoid/avoidgamescreen-thumb.png" width="200px" height="200px">
+          </a>
+        </div>
+        <div>
+            <a href="img/avoid/avoidred-life.png" target="_blank" data-lightbox = "gallery" data-title = "The screen that appears when a player loses a life (text varies depending on which colour sprite has lost a life).">
+              <img border="0" alt="Life Lost Screen" src="img/avoid/avoidred-life-thumb.png" width="200px" height="200px">
+            </a>
+          </div>
+          <div>
+            <a href="img/avoid/bluewins.png" target="_blank" data-lightbox = "gallery" data-title = "The screen that appears when a player wins (text varies depending on which colour sprite has won).">
+              <img border="0" alt="Win Screen" src="img/avoid/bluewins-thumb.png" width="200px" height="200px">
+            </a>
+          </div>
+      </div>
     </div>
 </body>
 
