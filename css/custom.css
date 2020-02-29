@@ -129,7 +129,7 @@ body {
   
   .flex-container > div { 
     background-color: #4b41db;
-    width: 200px;
+    width: 200px; /* contact section */
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -238,6 +238,11 @@ body {
     opacity: 0.6
   }
   
+  .contactbtn {
+    width:50%;
+  }
+
+
   /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
@@ -256,6 +261,10 @@ body {
     font-size: 20px;
     padding: 5px 350px 60px 350px;
   }
+  .contactbtn {
+    width:100%;
+  }
+
 }
 
 
