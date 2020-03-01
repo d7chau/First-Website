@@ -182,7 +182,6 @@ body {
     display: flex;
     justify-content: center;
     background-color: #4b41db;
-    width:100%; /*100% is good just need to minimize */
   }
 
   .contactinfo{
