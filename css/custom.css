@@ -245,6 +245,16 @@ body {
     opacity: 0.6
   }
   
+  .contactbtn{
+    width:80%;
+    height:80%;
+  }
+
+  .contactimg{
+    width: 125px;
+    height: 125px;
+    padding: 10px 10px 10px 10px;
+  }
 
   /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -270,7 +280,10 @@ body {
     background-color: #4b41db;
     width:100%;
   }
-
+  .classbtn{
+    width:80%;
+    height:80%;
+  }
 }
 
 
