@@ -55,7 +55,7 @@ body {
 
   .aboutmetext{
     font-size: 20px;
-    padding: 5px 350px 60px 350px;
+    padding: 5px 50px 60px 50px;
   }
 
   .projects{
@@ -129,7 +129,7 @@ body {
   
   .flex-container > div { 
     background-color: #4b41db;
-    width: 200px;
+    width: 200px; /* contact section */
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -176,6 +176,12 @@ body {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+  }
+
+  .contactflex-container{
+    display: flex;
+    justify-content: center;
+    background-color: #4b41db;
   }
 
   .contactinfo{
@@ -238,6 +244,46 @@ body {
     opacity: 0.6
   }
   
+  .contactbtn{
+    width:80%;
+    height:80%;
+  }
+
+  .contactimg{
+    width: 125px;
+    height: 125px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  /* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .aboutmetext{
+    font-size: 20px;
+    padding: 5px 350px 60px 350px;
+  }
+  .contactflex-container{
+    display: flex;
+    justify-content: center;
+    background-color: #4b41db;
+    width:100%;
+  }
+  .classbtn{
+    width:80%;
+    height:80%;
+  }
+}
 
 
  
